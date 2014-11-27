@@ -4,6 +4,11 @@ Some micro-benchmarks for JSON, MessagePack, Transit/JSON, Transit/MessagePack.
 
 ## Results
 
+![Decode execution time](http://i.imgur.com/ffvAzsl.png)
+
+![Size](http://i.imgur.com/bSn0bOs.png)
+
+
 ```
 === JSON Small ===========================================
 WARNING: Final GC required 1.539943614260177 % of runtime
