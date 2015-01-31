@@ -8,5 +8,6 @@
                  [com.cognitect/transit-clj "0.8.259"]
                  [criterium "0.4.3"]
                  [org.clojure/clojure "1.6.0"]]
+  :jvm-opts ^:replace ["-Xms1g" "-Xmx1g" "-server" "-XX:+AggressiveOpts" "-XX:+UseFastAccessorMethods"]
   :main transit-bench.bench
   :aot [transit-bench.bench])
